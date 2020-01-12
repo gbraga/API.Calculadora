@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"valor1\": 2,\n\t\"valor2\": 2\n}",
+					"raw": "{\n\t\"valor1\": 6,\n\t\"valor2\": 2\n}",
 					"options": {
 						"raw": {
 							"language": "json"
