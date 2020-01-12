@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "f8513096-832a-41ce-b715-56911b6e94d9",
+		"name": "API.Calculadora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dividir",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"valor1\": 2,\n\t\"valor2\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/calculadora/dividir",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"calculadora",
+						"dividir"
+					]
+				},
+				"description": "Testes "
+			},
+			"response": []
+		},
+		{
+			"name": "Subtrair",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"valor1\": 6,\n\t\"valor2\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/calculadora/subtrair",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"calculadora",
+						"subtrair"
+					]
+				},
+				"description": "Testes "
+			},
+			"response": []
+		},
+		{
+			"name": "Somar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"valor1\": 6,\n\t\"valor2\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/calculadora/somar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"calculadora",
+						"somar"
+					]
+				},
+				"description": "Testes "
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplicar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"valor1\": 6,\n\t\"valor2\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/calculadora/multiplicar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"calculadora",
+						"multiplicar"
+					]
+				},
+				"description": "Testes "
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
